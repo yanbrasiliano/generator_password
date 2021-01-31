@@ -4,7 +4,7 @@
 from random import choice
 import string
 from time import sleep
-import os
+#import os
 
 '''string.ascii_lowercase # abcdefghijklmnopqrstuvwxyz
 string.ascii_uppercase # ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -36,7 +36,7 @@ while True:
 			password =' '
 			for i in range (size):
 				password+=choice(v)
-			os.system('clear')
+			#os.system('clear')
 			print('Option 1 selected.')
 			print('Generating password...')
 			sleep(1)
@@ -54,7 +54,7 @@ while True:
 			password =' '
 			for i in range (size):
 				password+=choice(v)
-			os.system('clear')
+			#os.system('clear')
 			print('Option 2 selected.')
 			print('Generating password...')
 			sleep(1)
@@ -73,7 +73,7 @@ while True:
 
 			for i in range (size):
 				password+=choice(v)
-			os.system('clear')
+			#os.system('clear')
 			print('Option 3 selected.')
 			print('Generating password...')
 			sleep(1)
@@ -91,7 +91,7 @@ while True:
 			password =' '
 			for i in range (size):
 				password+=choice(v)
-			os.system('clear')
+			#os.system('clear')
 			print('Option 4 selected.')
 			print('Generating password...')
 			sleep(1)
@@ -109,7 +109,7 @@ while True:
 			password =' '
 			for i in range (size):
 				password+=choice(v)
-			os.system('clear')
+			#os.system('clear')
 			print('Option 5 selected.')
 			print('Generating password...')
 			sleep(1)
@@ -127,7 +127,7 @@ while True:
 			password =' '
 			for i in range (size):
 				password+=choice(v)
-			os.system('clear')
+			#os.system('clear')
 			print('Option 6 selected.')
 			print('Generating password...')
 			sleep(1)
@@ -143,12 +143,12 @@ while True:
 	while True:
 			resp = str(input('GENERATE MORE PASSWORDS: [Y/N]? ')).upper().split()[0]
 			if resp in 'YN':
-					os.system('clear')
+					#os.system('clear')
 					break
 			print('ERROR! ANSWER ONLY Y or N!')
 	if resp == 'N':
 				break
-	os.system('clear')
+	#os.system('clear')
 	print('Thanks for using GENERATOR STARS.')
 	print()
 	print()

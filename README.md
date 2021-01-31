@@ -7,8 +7,9 @@ On the main screen, the user will choose the option and the password will be gen
  <pre>git clone https://github.com/yanbrasiliano/generator_password.git </pre></p>
 <p>2. If you have not installed the pip package, install via terminal.<br>
 <pre> sudo apt install python3-pip </pre></p>
-<p>3. Install requeriments.txt <br>
+<p>3. <strong>Install requeriments.txt</strong> <br>
 <pre>pip install -r requirements.txt</pre></p></p>
+<br>
 <p>Enjoying the generator 🏁</p>
 
 <div align="center">

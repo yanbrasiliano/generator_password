@@ -1,8 +1,3 @@
-
-
-
-
-
 from random import choice
 import string
 from time import sleep

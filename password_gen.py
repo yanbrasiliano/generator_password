@@ -1,10 +1,23 @@
 
-#Este script serve para gerar senhas automáticas e aleatórias.
+
+
+
 
 from random import choice
 import string
 from time import sleep
 #import os
+
+"""
+
+Created by: Yan Brasiliano Silva Penalva
+Objective: Generate strong, random automatic passwords.
+
+"""
+
+print()
+print('Author: Yan Brasiliano Silva Penalva - hiyan')
+print()
 
 '''string.ascii_lowercase # abcdefghijklmnopqrstuvwxyz
 string.ascii_uppercase # ABCDEFGHIJKLMNOPQRSTUVWXYZ

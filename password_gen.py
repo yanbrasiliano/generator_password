@@ -149,7 +149,7 @@ while True:
 			print(f'Password generated:{password}')
 			print()
 	while True:
-			resp = str(input('GENERATE MORE PASSWORDS: [Y/N]? ')).upper().split()[0]
+			resp = str(input('GENERATE MORE PASSWORDS?[Y/N]: ')).upper().split()[0]
 			if resp in 'YN':
 					#os.system('clear')
 					break

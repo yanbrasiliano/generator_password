@@ -23,7 +23,7 @@ while True:
 	print()
 	print('\t	GENERATOR STARS')
 	print('-'*60)
-	print('''	[ 1 ] Password with all characters.\n
+	print('''	[ 1 ]  Password with all characters.\n
 	[ 2 ]  Password with letters and numbers.\n
 	[ 3 ]  Password only with letters[UPPER and LOWER].\n
 	[ 4 ]  Password only with numbers.\n

@@ -21,7 +21,7 @@ string.digits # 0123456789
 string.punctuation # <=>?@[\]^_`{|}~'''
 while True:
 	print()
-	print('\t	GENERATOR STARS')
+	print('\t	GENERATOR STARS v1.0')
 	print('-'*60)
 	print('''	[ 1 ]  Password with all characters.\n
 	[ 2 ]  Password with letters and numbers.\n

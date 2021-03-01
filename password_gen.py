@@ -12,10 +12,11 @@ string.ascii_uppercase # ABCDEFGHIJKLMNOPQRSTUVWXYZ
 string.ascii_letters # abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 string.digits # 0123456789
 string.punctuation # <=>?@[\]^_`{|}~"""
-	"""
+"""
 Version 1.0: First scope of the algorithm, without improvements or lean code. 
-Version 2.0: 
-	"""
+Version 2.0: Adding some functions to clean up the code. 
+"""
+
 def wait():
 	sleep(1)
 	print('.')

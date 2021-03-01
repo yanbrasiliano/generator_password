@@ -7,18 +7,19 @@ from time import sleep
 
 Created by: Yan Brasiliano Silva Penalva
 Objective: Generate strong, random automatic passwords.
-
-"""
-
-print()
-print('Author: Yan Brasiliano Silva Penalva - hiyan')
-print()
-
-'''string.ascii_lowercase # abcdefghijklmnopqrstuvwxyz
+string.ascii_lowercase # abcdefghijklmnopqrstuvwxyz
 string.ascii_uppercase # ABCDEFGHIJKLMNOPQRSTUVWXYZ
 string.ascii_letters # abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 string.digits # 0123456789
-string.punctuation # <=>?@[\]^_`{|}~'''
+string.punctuation # <=>?@[\]^_`{|}~"""
+	"""
+Version 1.0: First scope of the algorithm, without improvements or lean code. 
+Version 2.0: 
+	"""
+def wait():
+	sleep(1)
+	print('.')
+
 while True:
 	print()
 	print('\t	GENERATOR STARS v1.0')
@@ -47,14 +48,9 @@ while True:
 			#os.system('clear')
 			print('Option 1 selected.')
 			print('Generating password...')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print()
+			wait()
+			wait()
+			wait()		
 			print(f'Password generated:{password}')
 			print()
 	if choose == 2: 
@@ -65,33 +61,23 @@ while True:
 			#os.system('clear')
 			print('Option 2 selected.')
 			print('Generating password...')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
+			wait()
+			wait()
+			wait()
 			print()
 			print(f'Password generated:{password}')
 			print()
 	if choose == 3:
 			v= string.ascii_letters 
 			password =' '
-
 			for i in range (size):
 				password+=choice(v)
 			#os.system('clear')
 			print('Option 3 selected.')
 			print('Generating password...')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print()
+			wait()
+			wait()
+			wait()
 			print(f'Password generated:{password}')
 			print()
 	if choose == 4:
@@ -102,13 +88,9 @@ while True:
 			#os.system('clear')
 			print('Option 4 selected.')
 			print('Generating password...')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
+			wait()
+			wait()
+			wait()
 			print()
 			print(f'Password generated:{password}')
 			print()
@@ -120,13 +102,9 @@ while True:
 			#os.system('clear')
 			print('Option 5 selected.')
 			print('Generating password...')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
+			wait()
+			wait()
+			wait()
 			print()
 			print(f'Password generated:{password}')
 			print()
@@ -138,13 +116,9 @@ while True:
 			#os.system('clear')
 			print('Option 6 selected.')
 			print('Generating password...')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
-			print('.')
-			sleep(1)
+			wait()
+			wait()
+			wait()
 			print()
 			print(f'Password generated:{password}')
 			print()

@@ -7,14 +7,16 @@ from time import sleep
 
 Created by: Yan Brasiliano Silva Penalva
 Objective: Generate strong, random automatic passwords.
+
 string.ascii_lowercase # abcdefghijklmnopqrstuvwxyz
 string.ascii_uppercase # ABCDEFGHIJKLMNOPQRSTUVWXYZ
 string.ascii_letters # abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 string.digits # 0123456789
-string.punctuation # <=>?@[\]^_`{|}~"""
-"""
+string.punctuation # <=>?@[\]^_`{|}~
+
 Version 1.0: First scope of the algorithm, without improvements or lean code. 
 Version 2.0: Adding some functions to clean up the code. 
+
 """
 
 def wait():

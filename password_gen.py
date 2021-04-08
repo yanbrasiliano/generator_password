@@ -52,8 +52,6 @@ while True:
 			print('Option 1 selected.')
 			print('Generating password...')
 			wait()
-			wait()
-			wait()		
 			print(f'Password generated:{password}')
 			print()
 	if choose == 2: 
@@ -64,8 +62,6 @@ while True:
 			#os.system('clear')
 			print('Option 2 selected.')
 			print('Generating password...')
-			wait()
-			wait()
 			wait()
 			print()
 			print(f'Password generated:{password}')
@@ -79,12 +75,10 @@ while True:
 			print('Option 3 selected.')
 			print('Generating password...')
 			wait()
-			wait()
-			wait()
 			print(f'Password generated:{password}')
 			print()
 	if choose == 4:
-			v= string.digits
+			v=string.digits
 			password =' '
 			for i in range (size):
 				password+=choice(v)
